@@ -1,0 +1,10 @@
+.DS_Store
+.next
+node_modules
+
+# Local source/reference files not needed for deployment
+Google.pdf
+My Resume-14.pdf
+Nithin Arisetty BI IND.pdf
+Nithin Arisetty BI UK.pdf
+profile.jpeg

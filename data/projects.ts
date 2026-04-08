@@ -3,6 +3,8 @@ export type Project = {
   title: string;
   summary: string;
   metric: string;
+  impactLine: string;
+  cardHint: string;
   stack: string[];
   problem: string;
   overview: string;
@@ -16,8 +18,10 @@ export const projects: Project[] = [
     id: "customer-intelligence-copilot",
     title: "Customer Intelligence Copilot",
     summary:
-      "AI-powered analytics application that converts transaction data into churn signals, LTV views, customer segments, and experiment recommendations.",
-    metric: "AI analytics app",
+      "Built to solve slow, manual customer analysis by turning transaction data into churn insight, LTV views, segmentation, and experiment-ready recommendations in one guided workflow.",
+    metric: "AI-powered analytics system",
+    impactLine: "Reduced manual analysis effort and accelerated insight generation for customer decision-making.",
+    cardHint: "Turns raw transactions into retention and growth actions.",
     stack: ["Python", "Streamlit", "LLMs", "Analytics"],
     problem:
       "Analysts often spend too much time stitching together descriptive views before they can make customer decisions. This project compresses that path into a guided analytics copilot.",
@@ -35,8 +39,10 @@ export const projects: Project[] = [
     id: "ecommerce-lifecycle-analytics",
     title: "E-commerce Lifecycle Analytics",
     summary:
-      "End-to-end lifecycle analytics project analysing roughly 2M events to understand funnels, retention, segmentation, and conversion behaviour.",
-    metric: "~2M events analysed",
+      "Designed to unify fragmented lifecycle data across funnel, retention, and conversion journeys, creating a clearer view of how users move, drop off, and convert across roughly 2M events.",
+    metric: "2M+ events analysed",
+    impactLine: "Enabled scalable lifecycle analytics across a large behavioural dataset.",
+    cardHint: "Maps the funnel, retention, and conversion story end to end.",
     stack: ["Python", "SQL", "Power BI", "Jupyter"],
     problem:
       "Lifecycle performance is usually fragmented across event data, conversion flows, and retention reporting. This project brings those views together in one analytical model.",
@@ -53,8 +59,10 @@ export const projects: Project[] = [
     id: "experiment-decision-engine",
     title: "Experiment-Decision-Engine",
     summary:
-      "Agentic experimentation system built around n8n workflows for intake, scoring, review, and governance.",
-    metric: "Workflow-led governance",
+      "Created to bring structure to scattered experimentation requests by automating intake, scoring, review, and governance through workflow-led decision support.",
+    metric: "Workflow automation engine",
+    impactLine: "Improved consistency in how experiments are prioritised, reviewed, and governed.",
+    cardHint: "Adds structure and governance to experimentation intake.",
     stack: ["n8n", "JavaScript", "AI Workflows", "Experimentation"],
     problem:
       "Experiment ideas often arrive without consistent prioritisation or governance. This system creates a structured intake and review path for higher-quality experimentation decisions.",
@@ -71,8 +79,10 @@ export const projects: Project[] = [
     id: "commercial-analytics-pipeline",
     title: "End-to-End Commercial Analytics Pipeline",
     summary:
-      "Commercial and vendor performance pipeline transforming raw transactions into decision-ready reporting through notebooks, SQL-style logic, and Power BI.",
-    metric: "Pipeline to insight",
+      "Built to clean and structure noisy commercial transaction data, turning vendor and performance signals into reporting layers that are ready for business review and action.",
+    metric: "Decision-ready reporting pipeline",
+    impactLine: "Strengthened visibility into vendor and commercial performance with cleaner reporting outputs.",
+    cardHint: "Transforms noisy transactions into usable commercial insight.",
     stack: ["Python", "SQL-style analytics", "Power BI", "Jupyter"],
     problem:
       "Commercial datasets are often rich but operationally noisy. This project focuses on building a cleaner path from raw transaction data to vendor and performance insight.",

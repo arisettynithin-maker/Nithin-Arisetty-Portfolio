@@ -87,13 +87,6 @@ export function HeroSection() {
             className="relative"
           >
             <div className="relative mx-auto max-w-md rounded-[2.25rem] border border-line bg-white/90 p-4 shadow-[0_30px_90px_rgba(15,23,42,0.12)] backdrop-blur">
-              <div className="absolute -right-10 top-10 hidden rounded-[1.5rem] border border-line bg-white/95 px-5 py-4 shadow-soft lg:block">
-                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-ink/45">Current Focus</p>
-                <p className="mt-2 max-w-[11rem] text-sm leading-6 text-ink/72">
-                  KPI systems, anomaly detection, reporting governance, and AI-enabled analytics.
-                </p>
-              </div>
-
               <div className="rounded-[1.9rem] bg-[linear-gradient(180deg,#ffffff_0%,#f8fbff_100%)] p-2">
                 <ProfilePortrait alt={profile.image.alt} />
               </div>

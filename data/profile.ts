@@ -1,24 +1,24 @@
 export const profile = {
   name: "Nithin Arisetty",
-  headline: "Data Analyst | AI & Analytics",
+  headline: "BI & Data Analyst | SQL · Python (Pandas) · Power BI",
   heroSummary:
-    "I build decision-focused analytics systems using SQL, Python, BI tools, and AI-powered workflows.",
+    "Building commercial analytics systems that turn complex data into decisions — at Amazon scale.",
   supportingCopy:
     "Analytics professional with Amazon experience across operational intelligence, Central Europe operations, KPI design, reporting systems, and scalable decision support. I work at the intersection of rigorous analysis, stakeholder clarity, and practical AI applications.",
   intro:
-    "I turn large-scale operational data into decision-ready insight. My work spans advanced SQL analysis, Python-led problem solving, BI reporting, data validation, governance, and analytics support for Central Europe operations at Amazon. The focus is always the same: make the signal clearer, reduce noise in decision-making, and help teams move with more confidence.",
+    "BI & Data Analyst with 2+ years delivering commercial analytics across Amazon's Central Europe operations network. I work across SQL, Python (Pandas), and Power BI to standardise KPI frameworks, surface growth trends, and directly inform strategic decisions for regional and executive stakeholders. My work sits at the intersection of data quality, commercial reporting, and business impact — turning millions of weekly records into reliable, actionable insight.",
   aboutHighlights: [
     {
-      value: "Amazon",
-      label: "experience in operational and business analytics"
+      value: "2+ Years",
+      label: "delivering commercial analytics at Amazon's Central Europe operations network"
     },
     {
       value: "Central Europe",
-      label: "analytics context across complex operational environments and regional performance questions"
+      label: "regional and executive stakeholder reporting, growth trends, and KPI standardisation"
     },
     {
-      value: "SQL + Python",
-      label: "core toolkit for scalable analysis and automation"
+      value: "SQL · Pandas · Power BI",
+      label: "core toolkit for data wrangling, analysis, and commercial reporting"
     }
   ],
   trustChips: [

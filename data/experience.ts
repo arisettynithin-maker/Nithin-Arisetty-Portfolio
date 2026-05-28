@@ -1,28 +1,26 @@
 export const experience = [
   {
-    role: "Senior BI Analyst - Business Analytics",
-    company: "Amazon UK",
-    dates: "Oct 2025 - Present",
+    role: "BI Analyst II · Logistics Scheduler L3",
+    company: "Amazon",
+    dates: "Oct 2025 — Present",
     summary:
-      "Leading business analytics work that connects large-scale operational data to leadership decisions through advanced SQL analysis, Python workflows, KPI design, governance, and AWS-backed reporting.",
+      "Leading commercial analytics for Central Europe — standardising KPI frameworks, surfacing data quality issues, and redesigning reporting workflows to deliver faster, more reliable insight for regional and executive stakeholders.",
     bullets: [
-      "Built decision-grade KPI frameworks that sharpened visibility into performance, risk, and operational health.",
-      "Combined SQL and Python analysis to detect anomalies early and surface issues before they affected downstream reporting.",
-      "Improved reporting reliability through tighter data governance, validation, and metric definition practices.",
-      "Supported senior stakeholders with concise insight narratives, prioritization signals, and faster turnaround on business questions."
+      "Owned and standardised 50+ KPIs and Power BI dashboards tracking commercial performance and growth trends across Central Europe for regional and executive stakeholders",
+      "Identified data quality gaps and surfaced 15+ business anomalies through SQL-driven analysis, directly informing leadership decisions and reducing discrepancies by ~25%",
+      "Redesigned reporting workflows using SQL and Pandas, cutting analytical overhead by ~40% and reporting latency by ~30%"
     ]
   },
   {
-    role: "Business Intelligence Analyst - Operations Analytics",
-    company: "Amazon UK",
-    dates: "Sep 2023 - Sep 2025",
+    role: "BI Analyst I · Sortation Associate L1",
+    company: "Amazon",
+    dates: "Sep 2023 — Sep 2025",
     summary:
-      "Delivered analytics for operational teams through SQL and Python analysis, dashboarding, reconciliation work, and stakeholder-facing reporting focused on accuracy and performance improvement.",
+      "Delivered operational analytics for Amazon's logistics and commercial teams — analysing millions of weekly transaction records, building self-serve dashboards, and accelerating reporting cycles through structured data workflows.",
     bullets: [
-      "Created reporting layers and BI views that translated raw operational data into actionable weekly and monthly insight.",
-      "Strengthened data accuracy with structured validation, reconciliation, and exception handling across critical reports.",
-      "Worked cross-functionally with stakeholders to turn ambiguous business questions into measurable analytical outputs.",
-      "Generated recommendations on performance trends, bottlenecks, and process efficiency using repeatable analytical workflows."
+      "Analysed 2M+ weekly transaction records using SQL and Power BI to surface revenue trends and deliver recommendations that directly shaped business decisions",
+      "Built reporting dashboards that drove ~40% increase in stakeholder self-serve adoption and standardised KPIs across finance and commercial teams",
+      "Accelerated reporting cycles by ~25% through root cause analysis and elimination of manual bottlenecks across recurring data workflows"
     ]
   }
 ] as const;

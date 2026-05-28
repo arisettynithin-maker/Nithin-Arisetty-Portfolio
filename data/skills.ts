@@ -1,35 +1,41 @@
-import { BarChart3, Bot, Database, LineChart } from "lucide-react";
+import { BarChart3, Database, LineChart, Users2 } from "lucide-react";
 
 export const skillGroups = [
   {
     title: "Analytics",
     icon: LineChart,
-    description: "Structured analysis for performance, risk, and decision support.",
+    description: "Structured analysis for commercial performance, anomaly detection, and decision support.",
     skills: [
-      "SQL",
-      "Python",
-      "Exploratory Analysis",
-      "KPI Development",
-      "Hypothesis Testing",
-      "Anomaly Detection"
+      "SQL (CTEs, Window Functions, Aggregations)",
+      "Python – Pandas (data wrangling & analysis)",
+      "Root Cause Analysis & Anomaly Detection"
     ]
   },
   {
-    title: "BI & Visualization",
+    title: "BI & Reporting",
     icon: BarChart3,
-    description: "Reporting systems that help stakeholders act with clarity.",
-    skills: ["Power BI", "Dashboard Design", "Stakeholder Reporting", "Data Storytelling"]
+    description: "Reporting systems that give stakeholders reliable, actionable commercial insight.",
+    skills: [
+      "Power BI (dashboards, DAX measures)",
+      "KPI Definition & Metric Standardisation",
+      "Growth & Commercial Reporting"
+    ]
   },
   {
-    title: "Data Platforms",
+    title: "Data & Quality",
     icon: Database,
-    description: "Cloud-backed tooling for scalable reporting and analysis.",
-    skills: ["AWS", "S3", "Athena", "Redshift"]
+    description: "Data quality practices and platform tooling for scalable, trustworthy reporting.",
+    skills: [
+      "Data Reconciliation & Quality Analysis",
+      "AWS (S3, Athena)"
+    ]
   },
   {
-    title: "AI / Automation",
-    icon: Bot,
-    description: "Practical AI workflows that extend analytics delivery.",
-    skills: ["LLM-based analytics apps", "AI workflows", "n8n", "Decision automation"]
+    title: "Stakeholder & Delivery",
+    icon: Users2,
+    description: "Cross-functional collaboration and clear communication with regional and executive stakeholders.",
+    skills: [
+      "Stakeholder Management & Cross-functional Collaboration"
+    ]
   }
 ] as const;

@@ -1,6 +1,7 @@
 export const profile = {
   name: "Nithin Arisetty",
-  headline: "BI & Data Analyst | SQL · Python (Pandas) · Power BI",
+  headline: "BI & Data Analyst",
+  headlineTagline: "SQL · Python (Pandas) · Power BI · Amazon UK",
   heroSummary:
     "Building commercial analytics systems that turn complex data into decisions — at Amazon scale.",
   supportingCopy:

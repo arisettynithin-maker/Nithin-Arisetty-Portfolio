@@ -40,6 +40,9 @@ export function HeroSection() {
                   <h1 className="max-w-4xl font-serif text-5xl leading-[0.95] text-ink sm:text-6xl lg:text-7xl">
                     {profile.headline}
                   </h1>
+                  <p className="text-sm font-semibold tracking-[0.18em] text-ink/50">
+                    {profile.headlineTagline}
+                  </p>
                   <p className="max-w-2xl text-xl leading-8 text-ink/78 sm:text-2xl sm:leading-9">
                     {profile.heroSummary}
                   </p>
